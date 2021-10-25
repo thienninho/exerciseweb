@@ -1,0 +1,27 @@
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+}
+input [type="text"], input[type="email"]{
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 00.5em;
+}
+.container {
+  width: 500px;
+  clear: both;
+}
+.container input {
+  width: 100%;
+  clear: both;
+}
+input[type="text" i] {
+    padding: 1px 2px;
+}
+input{
+    display: inline-block;
+    text-align: start;
+}
