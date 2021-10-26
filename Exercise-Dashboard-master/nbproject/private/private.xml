@@ -7,16 +7,22 @@
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/src/java/Chapter0703/data/ProductIO.java</file>
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/src/java/Chapter0703/business/Cart.java</file>
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/src/java/Chapter070102/util/CookieUtil.java</file>
+            <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/web/WEB-INF/emaillist/EmailList.txt</file>
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/web/Chapter7-03/checkout.jsp</file>
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/web/Chapter7-0102/register.jsp</file>
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/web/Chapter7-0102/8601_download.jsp</file>
+            <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/src/java/Chapter8/data/UserIO.java</file>
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/src/java/Control/Category.java</file>
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/src/java/Chapter070102/business/User.java</file>
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/src/java/Chapter070102/download/DownloadServlet.java</file>
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/web/Chapter7-03/index.jsp</file>
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/src/java/Chapter0703/business/LineItem.java</file>
+            <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/src/java/Chapter8/business/User.java</file>
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/src/java/Chapter0703/cart/CartServlet.java</file>
+            <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/web/Chapter8/thanks.jsp</file>
+            <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/src/java/Chapter8/data/UserDB.java</file>
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/web/Chapter4/index.html</file>
+            <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/web/Chapter8/index.jsp</file>
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/src/java/Chapter070102/data/UserIO.java</file>
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/web/Chapter7-0102/pf02_download.jsp</file>
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/web/Chapter7-0102/delete_cookies.jsp</file>
@@ -24,8 +30,11 @@
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/src/java/Control/ExerciseControl.java</file>
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/src/java/Chapter070102/business/Product.java</file>
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/web/Chapter7-0102/pf01_download.jsp</file>
+            <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/src/java/Chapter070102/data/ProductIO.java</file>
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/web/Chapter7-03/cart.jsp</file>
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/web/Chapter7-0102/view_cookies.jsp</file>
+            <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/src/java/Chapter8/email/EmailListServlet_chap8ex01.java</file>
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/web/Interface/Exercises-List.jsp</file>
             <file>file:/C:/Users/Admin/Desktop/Exercise-Dashboard-master/web/Chapter7-0102/jr01_download.jsp</file>
         </group>

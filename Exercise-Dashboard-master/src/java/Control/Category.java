@@ -41,6 +41,9 @@ public class Category extends HttpServlet {
            }
         if (category.equals("Exercise7-03")) {
                request.getRequestDispatcher("/Chapter7-03/index.jsp").forward(request, response);
+           }
+        if (category.equals("Exercise8")) {
+               request.getRequestDispatcher("/Chapter8/index.jsp").forward(request, response);
            }  
     }
 

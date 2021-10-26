@@ -70,7 +70,7 @@ public class CartServlet extends HttpServlet {
             }
 
             session.setAttribute("cart", cart);
-            url = "/Chapter7-03/cart.jsp";
+            url = "Chapter7-03/cart.jsp";
         }
         else if (action.equals("checkout")) {
             url = "/Chapter7-03/checkout.jsp";

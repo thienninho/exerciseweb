@@ -149,7 +149,7 @@
                           <td>5</td><td>Exercise 7 (03)</td><td><a href="#" id="code">Go to Git</a></td><td><a href="Control?name=Exercise7-03" id="Click-here">Click here</a></td><td class="text-primary">Completed</td>
                         </tr> 
                         <tr>
-                          <td>6</td><td>Dakota Rice</td><td><a href="#" id="code">Go to Git</a></td><td><a href="#" id="Click-here">Click here</a></td><td class="text-primary">Completed</td>
+                          <td>6</td><td>Exercise 8</td><td><a href="#" id="code">Go to Git</a></td><td><a href="Control?name=Exercise8" id="Click-here">Click here</a></td><td class="text-primary">Completed</td>
                         </tr> 
                         <tr>
                           <td>7</td><td>Dakota Rice</td><td><a href="#" id="code">Go to Git</a></td><td><a href="#" id="Click-here">Click here</a></td><td class="text-primary">Completed</td>

@@ -18,7 +18,7 @@
 </tr>
 <tr>
     <td>Neon Lights</td>
-    <td><a href="/Chapter7-0102/musicStore/sound/${product.code}/neon.mp3">MP3</a></td>
+    <td><a href="Chapter7-0102/musicStore/sound/${product.code}/neon.mp3">MP3</a></td>
 </tr>
 <tr>
     <td>Tank Hill</td>

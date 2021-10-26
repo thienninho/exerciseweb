@@ -32,16 +32,14 @@
     <td>${item.product.priceCurrencyFormat}</td>
     <td>${item.totalCurrencyFormat}</td>
     <td>
-      <a href="cart?productCode=${item.product.code}&amp;quantity=0">Remove Item</a>
-      <!--
-      <form action="" method="post">
+      <form>
         <input type="hidden" name="productCode" 
                value="${item.product.code}">
         <input type="hidden" name="quantity" 
                value="0">
-        <input type="submit" value="Remove Item">
+<%--        <input type="submit" value="Remove Item">--%>
+        <a href="cart?productCode=${item.product.code}&quantity=0">Remove Item</a>
       </form>
-      -->
     </td>
   </tr>
 </c:forEach>
