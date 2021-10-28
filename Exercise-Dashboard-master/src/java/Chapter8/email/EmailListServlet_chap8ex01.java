@@ -11,7 +11,7 @@ import Chapter8.business.User;
 import Chapter8.data.UserDB;
 import Chapter8.data.UserIO;
 
-@WebServlet(urlPatterns = "/Chapter8/emailList")
+@WebServlet(urlPatterns = {"/Chapter8/emailList" , "/Chapter8/"})
 public class EmailListServlet_chap8ex01 extends HttpServlet
 {    
     @Override

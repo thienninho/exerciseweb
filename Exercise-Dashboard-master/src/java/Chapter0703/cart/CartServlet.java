@@ -1,28 +1,24 @@
 package Chapter0703.cart;
 
-import Chapter0703.data.ProductIO;
-import Chapter0703.business.LineItem;
 import Chapter0703.business.Cart;
+import Chapter0703.business.LineItem;
 import Chapter0703.business.Product;
+import Chapter0703.data.ProductIO;
+
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
-@WebServlet(urlPatterns = "/Chapter0703/cart")
+@WebServlet(urlPatterns = {"/cart"})
 public class CartServlet extends HttpServlet {
 
-    /**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
-
-	@Override
+    @Override
     protected void doPost(HttpServletRequest request,
             HttpServletResponse response)
             throws ServletException, IOException {
         
-        String url = "/Chapter7-03/index.jsp";
+        String url = "/Chapter0703/index.jsp";
         ServletContext sc = getServletContext();
         
         // get current action
@@ -33,7 +29,7 @@ public class CartServlet extends HttpServlet {
 
         // perform action and set URL to appropriate page
         if (action.equals("shop")) {
-            url = "/Chapter7-03/index.jsp";    // the "index" page
+            url = "/Chapter0703/index.jsp";    // the "index" page
         } 
         else if (action.equals("cart")) {
             String productCode = request.getParameter("productCode");
@@ -57,32 +53,34 @@ public class CartServlet extends HttpServlet {
                 quantity = 1;
             }
 
-            String path = sc.getRealPath("/WEB-INF/cart/products.txt");
-            Product product = ProductIO.getProduct(productCode, path);
+            if (productCode != null) {
+                String path = sc.getRealPath("/WEB-INF/products.txt");
+                Product product = ProductIO.getProduct(productCode, path);
 
-            LineItem lineItem = new LineItem();
-            lineItem.setProduct(product);
-            lineItem.setQuantity(quantity);
-            if (quantity > 0) {
-                cart.addItem(lineItem);
-            } else if (quantity == 0) {
-                cart.removeItem(lineItem);
+                LineItem lineItem = new LineItem();
+                lineItem.setProduct(product);
+                lineItem.setQuantity(quantity);
+                if (quantity > 0) {
+                    cart.addItem(lineItem);
+                } else if (quantity == 0) {
+                    cart.removeItem(lineItem);
+                }
             }
 
+
             session.setAttribute("cart", cart);
-            url = "Chapter7-03/cart.jsp";
+            url = "/Chapter0703/cart.jsp";
         }
         else if (action.equals("checkout")) {
-            url = "/Chapter7-03/checkout.jsp";
+            url = "/Chapter0703/checkout.jsp";
         }
 
-        request.getRequestDispatcher(url).forward(request, response);
+        sc.getRequestDispatcher(url)
+                .forward(request, response);
     }
-    
+
     @Override
-    protected void doGet(HttpServletRequest request,
-            HttpServletResponse response)
-            throws ServletException, IOException {
-        doPost(request, response);
-    }    
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        this.doPost(request, response);
+    }
 }

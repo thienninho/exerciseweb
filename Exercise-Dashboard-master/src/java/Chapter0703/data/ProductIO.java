@@ -1,6 +1,7 @@
 package Chapter0703.data;
 
 import Chapter0703.business.Product;
+
 import java.io.*;
 import java.util.*;
 
@@ -13,7 +14,7 @@ public class ProductIO {
             BufferedReader in
                     = new BufferedReader(
                             new FileReader(file));
-            
+
             String line = in.readLine();
             while (line != null) {
                 StringTokenizer t = new StringTokenizer(line, "|");
@@ -44,7 +45,7 @@ public class ProductIO {
         try {
             BufferedReader in
                     = new BufferedReader(
-                    		new FileReader(file));
+                            new FileReader(file));
 
             String line = in.readLine();
             while (line != null) {

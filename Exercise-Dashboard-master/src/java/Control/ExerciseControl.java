@@ -29,7 +29,7 @@ public class ExerciseControl extends HttpServlet {
             request.getRequestDispatcher("/Chapter4/index.html").forward(request, response);
         }
         if(exercise.equals("Exercise5")){
-            request.getRequestDispatcher("/Chapter5/Index.html").forward(request, response);
+            request.getRequestDispatcher("/Chapter5/index.jsp").forward(request, response);
         }
         if(exercise.equals("Exercise6")){
             request.getRequestDispatcher("/Chapter6/Index.html").forward(request, response);
@@ -37,9 +37,13 @@ public class ExerciseControl extends HttpServlet {
         if(exercise.equals("Exercise7-0102")){
             request.getRequestDispatcher("/Chapter7-0102/index.jsp").forward(request, response);
         }
+        if(exercise.equals("Exercise7-03")){
+            request.getRequestDispatcher("/Chapter0703/index.jsp").forward(request, response);
+        }
         if(exercise.equals("Exercise8")){
             request.getRequestDispatcher("/Chapter8/index.jsp").forward(request, response);
         }
+        
     }
 
 }
