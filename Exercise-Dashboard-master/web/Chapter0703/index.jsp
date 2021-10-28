@@ -55,6 +55,5 @@
     </tr>
 </table>
 <br>
-<a href="/homework.html">Return to list of exercises</a>
 </body>
 </html>
